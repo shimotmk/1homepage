@@ -248,3 +248,36 @@ footer p{
 footer p{
     font-size: 10px;
 }
+
+/*スマホ対応*/
+@media all and (max-width: 670px) {
+  .main_table tr ,.main_table td {
+  	width:100%;
+    display:block;
+  }
+  .logo {
+    width: 100px;
+    height: 50px;
+    margin-top: 0px;
+  }
+  .header-left {
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+  }
+  .header-right {
+    width: 40%;
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+  }
+  .header-right a{
+    font-size: 5px;
+    padding:  none;
+  }
+  footer a {
+    color: black;
+    font-size: 10px;
+    padding-left: 10px;
+  }
+}
